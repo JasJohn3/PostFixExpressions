@@ -43,6 +43,8 @@ int main()
 			case '-': Evaluate.push(second_Value - first_Value); break;
 			case '*': Evaluate.push(second_Value * first_Value); break;
 			case '/': Evaluate.push(second_Value / first_Value); break;
+			case '^':Evaluate.push(pow(second_Value, first_Value)); break;
+			case '%':Evaluate.push(second_Value%first_Value); break;
 			}
 		}
 	}
